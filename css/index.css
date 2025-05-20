@@ -366,3 +366,80 @@
     margin-right: 11px;
     cursor: pointer;
 }
+
+/*
+  楼层
+ */
+.floor {
+    margin-top: 48px;
+}
+
+.floor-nav {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #DD302D;
+}
+
+.floor-nav-list {
+    display: flex;
+}
+
+.floor-nav-list li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.floor-nav .floor-name {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.floor-nav-list li a {
+    padding: 0 10px;
+    border-right: 1px solid #666;
+}
+
+.floor-nav-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+
+.floor-info {
+    display: flex;
+}
+
+.floor-info .item2 {
+    width: 340px;
+    height: 432px;
+    background-color: skyblue;
+}
+
+.floor-info .item3 {
+    width: 206px;
+    height: 432px;
+    background-color: skyblue;
+    border-right: 1px solid #E2E2E2;
+}
+
+.floor-info .item4 {
+    width: 206px;
+    height: 432px;
+    background-color: skyblue;
+    border-right: 1px solid #E2E2E2;
+}
+
+.floor-info .item5 {
+    width: 206px;
+    height: 432px;
+    background-color: skyblue;
+}
+
+.floor-info .item1 {
+    width: 230px;
+    height: 432px;
+    background-color: skyblue;
+    margin-left: 0;
+}

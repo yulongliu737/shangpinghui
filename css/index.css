@@ -473,3 +473,30 @@
 .item1-list li:nth-child(4) {
     margin: 14.4px 0;
 }
+
+.top-links {
+    display: flex;
+}
+
+.footer {
+    background-color: #333333;
+    height: 360px;
+}
+
+.top-links .links-list {
+    width: 190px;
+    height: 176px;
+    margin-top: 48px;
+    margin-right: 10px;
+}
+
+.top-links .links-list a {
+    color: white;
+    font-size: 10px;
+}
+
+.line {
+    height: 1px;
+    background: #584D4D;
+    margin-top: 22px;
+}

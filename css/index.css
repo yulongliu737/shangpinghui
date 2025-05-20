@@ -1,6 +1,11 @@
 /**
   基础设置
  */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
 .container_top {
     width: 1190px;
     margin: 0 auto;
@@ -51,7 +56,7 @@
  */
 .header {
     height: 120px;
-    background-color: skyblue;
+    background-color: white;
 }
 
 .logo {
@@ -85,4 +90,30 @@
     background-image: url('../images/serch_icon.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/*
+  主导航
+ */
+.main-nav {
+    height: 48px;
+    border-bottom: 1px solid #DD302D;
+}
+
+.main-nav .all-types {
+    height: 48px;
+    width: 190px;
+    line-height: 48px;
+    background-color: #DD302D;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.main-nav-list li {
+    float: left;
+    line-height: 48px;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
 }

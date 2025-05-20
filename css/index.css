@@ -354,3 +354,15 @@
 .other-nav-list:nth-child(3) li:nth-child(4) .picture {
     background-position: -144px -96px;
 }
+
+/*
+  秒杀
+ */
+.seckill .container {
+    display: flex;
+}
+
+.seckill img {
+    margin-right: 11px;
+    cursor: pointer;
+}

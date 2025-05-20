@@ -1,10 +1,9 @@
 /**
   基础设置
  */
-.container {
+.container_top {
     width: 1190px;
     margin: 0 auto;
-    font-size: 0;
 }
 
 .topbar {
@@ -47,3 +46,43 @@
     border:0;
 }
 
+/**
+ 头部
+ */
+.header {
+    height: 120px;
+    background-color: skyblue;
+}
+
+.logo {
+    font-size: 12px;
+}
+
+.container_header {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.header .search form {
+    margin-top: 42px;
+    font-size: 0;
+}
+
+.header .search input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid #DD302D;
+}
+
+/*
+  修改背景图片为不重复 并且背景图片居中
+ */
+.header .search button {
+    width: 80px;
+    height: 34px;
+    background-color: #DD302D;
+    vertical-align: middle;
+    background-image: url('../images/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}

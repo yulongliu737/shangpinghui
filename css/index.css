@@ -414,32 +414,62 @@
 .floor-info .item2 {
     width: 340px;
     height: 432px;
-    background-color: skyblue;
 }
 
 .floor-info .item3 {
     width: 206px;
     height: 432px;
-    background-color: skyblue;
     border-right: 1px solid #E2E2E2;
+}
+
+.floor-info .item3 img,
+.floor-info .item4 img,
+.floor-info .item5 img{
+    border-bottom: 1px solid #E2E2E2;
 }
 
 .floor-info .item4 {
     width: 206px;
     height: 432px;
-    background-color: skyblue;
     border-right: 1px solid #E2E2E2;
 }
 
 .floor-info .item5 {
     width: 206px;
     height: 432px;
-    background-color: skyblue;
 }
 
 .floor-info .item1 {
-    width: 230px;
-    height: 432px;
-    background-color: skyblue;
+    width: 190px;
+    height: 392px;
+    background-color: #F4F4F4;
     margin-left: 0;
+    padding: 20px;
+}
+
+.item1-list li {
+    width: 90px;
+    height: 22px;
+    padding-bottom: 3.5px;
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*
+  浮动超出自动换行
+ */
+.item1-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 29px;
+}
+
+/*
+  找到空气净化器 和电饭煲加上下margin
+ */
+.item1-list li:nth-child(3),
+.item1-list li:nth-child(4) {
+    margin: 14.4px 0;
 }

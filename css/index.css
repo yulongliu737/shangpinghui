@@ -511,6 +511,7 @@
 .bottom-links .bottom-links-list li a {
     padding: 0 26px;
     border-right: 1px solid white;
+    color: white;
 }
 
 .bottom-links .bottom-links-list li:last-child a {

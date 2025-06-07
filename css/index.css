@@ -189,12 +189,10 @@
 }
 
 .second-menu dt {
-    float: left;
     width: 70px;
 }
 
 .second-menu dd {
-    float: left;
 }
 
 .second-menu dd a {
@@ -203,9 +201,9 @@
 }
 
 .second-menu dl {
-    height: 36px;
-    line-height: 36px;
+    display: flex;
     font-weight: normal;
+    flex-wrap: wrap;
 }
 
 .second-menu dl:first-child {
